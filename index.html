@@ -10,7 +10,12 @@
     <header>
         <h1>Birchwood Holiday Cottage</h1>
         <p class="subtitle">Dornie, Kyle of Lochalsh, Scotland</p>
-        <nav>
+        <button id="menu-toggle" class="hamburger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav id="main-nav">
             <a href="index.html">Home</a>
             <a href="details.html">Details</a>
             <a href="location.html">Location</a>
@@ -67,5 +72,10 @@
             Copyright © Birchwood Holiday Cottage<br>Site by James Waskett
         </p>
     </footer>
+    <script>
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            document.getElementById('main-nav').classList.toggle('active');
+        });
+    </script>
 </body>
 </html>
