@@ -225,6 +225,70 @@ main {
     transform: scale(1.1);
 }
 
+/* Activities section */
+.activities {
+    margin: 4rem 0;
+    text-align: center;
+}
+
+.activities h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #52b788;
+}
+
+.activities-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.activity-card {
+    background: linear-gradient(135deg, #1b4332 0%, #0d2818 100%);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(82, 183, 136, 0.2);
+    transition: all 0.3s ease;
+    padding: 1.5rem;
+}
+
+.activity-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 48px rgba(82, 183, 136, 0.2);
+    border-color: rgba(82, 183, 136, 0.4);
+}
+
+.activity-card h3 {
+    font-size: 1.5rem;
+    color: #52b788;
+    margin-bottom: 1rem;
+}
+
+.activity-images {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.activity-images img {
+    width: 50%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.activity-images img:hover {
+    transform: scale(1.05);
+}
+
+.activity-card p {
+    color: #b7e4c7;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
 /* Footer */
 footer {
     background: linear-gradient(135deg, #1b4332 0%, #2d5a3d 100%);
@@ -440,5 +504,17 @@ footer p {
 
     .room-details h4 {
         font-size: 1rem;
+    }
+
+    .activities-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .activity-images {
+        flex-direction: column;
+    }
+
+    .activity-images img {
+        width: 100%;
     }
 }

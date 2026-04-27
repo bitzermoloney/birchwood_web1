@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activities - Birchwood Holiday Cottage</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Birchwood Holiday Cottage</h1>
+        <p class="subtitle">Dornie, Kyle of Lochalsh, Scotland</p>
+        <button id="menu-toggle" class="hamburger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav id="main-nav">
+            <a href="index.html">Home</a>
+            <a href="details.html">Details</a>
+            <a href="location.html">Location</a>
+            <a href="activities.html">Activities</a>
+            <a href="pricing.html">Prices</a>
+            <a href="terms.html">Ts & Cs</a>
+            <a href="enquiries.html">Enquiries</a>
+            <a href="reviews.html">Reviews</a>
+        </nav>
+    </header>
+    <main>
+        <section class="activities">
+            <h2>Local Activities</h2>
+            <div class="activities-grid">
+                <div class="activity-card">
+                    <h3>Eilean Donan Castle</h3>
+                    <div class="activity-images">
+                        <img src="images/eilean_donan.jpg" alt="Eilean Donan Castle">
+                        <img src="images/dornie.jpg" alt="Dornie village">
+                    </div>
+                    <p>Explore the iconic Eilean Donan Castle, a historic stronghold on a small island. Take a short boat trip or walk across the causeway to visit this picturesque landmark, perfect for history enthusiasts and photographers.</p>
+                </div>
+                <div class="activity-card">
+                    <h3>Hiking in the Highlands</h3>
+                    <div class="activity-images">
+                        <img src="images/view_from_patio.jpg" alt="Highland view">
+                        <img src="images/patio.jpg" alt="Patio view">
+                    </div>
+                    <p>Enjoy scenic hikes through the stunning Scottish Highlands. From gentle walks along Loch Long to more challenging trails, discover breathtaking landscapes, wildlife, and fresh mountain air.</p>
+                </div>
+                <div class="activity-card">
+                    <h3>Boat Trips on Loch Long</h3>
+                    <div class="activity-images">
+                        <img src="images/banner_5.jpg" alt="Loch view">
+                        <img src="images/patio.jpg" alt="Water view">
+                    </div>
+                    <p>Embark on a relaxing boat trip across Loch Long. Spot seals, birds, and enjoy the serene waters. Ideal for fishing, kayaking, or simply unwinding with nature.</p>
+                </div>
+                <div class="activity-card">
+                    <h3>Village Exploration in Dornie</h3>
+                    <div class="activity-images">
+                        <img src="images/dornie.jpg" alt="Dornie village">
+                        <img src="images/eilean_donan.jpg" alt="Castle view">
+                    </div>
+                    <p>Wander through the charming village of Dornie. Visit local shops, enjoy a meal at the pub, or stroll along the waterfront. A great way to experience authentic Highland life.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>
+            Copyright © Birchwood Holiday Cottage<br>Site by James Waskett
+        </p>
+    </footer>
+    <script>
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            document.getElementById('main-nav').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
