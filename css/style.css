@@ -8,13 +8,13 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    color: #e8f5e8;
-    background-color: #0d1b0d;
+    color: #fff5f6;
+    background-color: #1f0d12;
 }
 
 /* Header styles */
 header {
-    background: linear-gradient(135deg, #1b4332 0%, #2d5a3d 100%);
+    background: linear-gradient(135deg, #5a1520 0%, #8b2435 100%);
     color: white;
     padding: 2rem 1rem;
     text-align: center;
@@ -108,7 +108,7 @@ main {
     display: flex;
     align-items: center;
     min-height: 60vh;
-    background: linear-gradient(135deg, #081c15 0%, #1b4332 100%);
+    background: linear-gradient(135deg, #18090e 0%, #5a1520 100%);
     border-radius: 15px;
     margin: 2rem 0;
     overflow: hidden;
@@ -123,12 +123,12 @@ main {
 .hero-content h2 {
     font-size: 3rem;
     margin-bottom: 1rem;
-    color: #d8f3dc;
+    color: #f7dbe1;
 }
 
 .hero-content p {
     font-size: 1.2rem;
-    color: #95d5b2;
+    color: #e2b5c0;
 }
 
 .hero-image {
@@ -158,13 +158,13 @@ main {
 .about-content h2 {
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
-    color: #52b788;
+    color: #b24b62;
 }
 
 .about-content p {
     font-size: 1.1rem;
     line-height: 1.8;
-    color: #b7e4c7;
+    color: #f0d6de;
 }
 
 .about-image {
@@ -194,7 +194,7 @@ main {
 .gallery h2 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
-    color: #52b788;
+    color: #b24b62;
 }
 
 .gallery-grid {
@@ -234,7 +234,7 @@ main {
 .activities h2 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
-    color: #52b788;
+    color: #b24b62;
 }
 
 .activities-grid {
@@ -244,24 +244,24 @@ main {
 }
 
 .activity-card {
-    background: linear-gradient(135deg, #1b4332 0%, #0d2818 100%);
+    background: linear-gradient(135deg, #5a1520 0%, #2d0f16 100%);
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-    border: 1px solid rgba(82, 183, 136, 0.2);
+    border: 1px solid rgba(178, 75, 98, 0.22);
     transition: all 0.3s ease;
     padding: 1.5rem;
 }
 
 .activity-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 12px 48px rgba(82, 183, 136, 0.2);
-    border-color: rgba(82, 183, 136, 0.4);
+    box-shadow: 0 12px 48px rgba(178, 75, 98, 0.22);
+    border-color: rgba(178, 75, 98, 0.45);
 }
 
 .activity-card h3 {
     font-size: 1.5rem;
-    color: #52b788;
+    color: #b24b62;
     margin-bottom: 1rem;
 }
 
@@ -284,14 +284,14 @@ main {
 }
 
 .activity-card p {
-    color: #b7e4c7;
+    color: #f0d6de;
     line-height: 1.6;
     font-size: 1rem;
 }
 
 /* Footer */
 footer {
-    background: linear-gradient(135deg, #1b4332 0%, #2d5a3d 100%);
+    background: linear-gradient(135deg, #5a1520 0%, #8b2435 100%);
     color: white;
     text-align: center;
     padding: 2rem 1rem;
@@ -307,20 +307,20 @@ footer p {
     text-align: center;
     margin: 3rem 0;
     padding: 2rem;
-    background: linear-gradient(135deg, rgba(27, 67, 50, 0.3) 0%, rgba(45, 90, 61, 0.3) 100%);
+    background: linear-gradient(135deg, rgba(90, 21, 32, 0.35) 0%, rgba(139, 36, 53, 0.35) 100%);
     border-radius: 15px;
-    border-left: 5px solid #52b788;
+    border-left: 5px solid #b24b62;
 }
 
 .page-intro h2 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    color: #52b788;
+    color: #b24b62;
 }
 
 .page-intro p {
     font-size: 1.1rem;
-    color: #b7e4c7;
+    color: #f0d6de;
 }
 
 /* Rooms container */
@@ -333,18 +333,18 @@ footer p {
 
 /* Room card styles */
 .room-card {
-    background: linear-gradient(135deg, #1b4332 0%, #0d2818 100%);
+    background: linear-gradient(135deg, #5a1520 0%, #2d0f16 100%);
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-    border: 1px solid rgba(82, 183, 136, 0.2);
+    border: 1px solid rgba(178, 75, 98, 0.22);
     transition: all 0.3s ease;
 }
 
 .room-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 12px 48px rgba(82, 183, 136, 0.2);
-    border-color: rgba(82, 183, 136, 0.4);
+    box-shadow: 0 12px 48px rgba(178, 75, 98, 0.22);
+    border-color: rgba(178, 75, 98, 0.45);
 }
 
 .room-header {
@@ -352,19 +352,19 @@ footer p {
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem;
-    background: linear-gradient(135deg, #081c15 0%, #1b4332 100%);
-    border-bottom: 2px solid #52b788;
+    background: linear-gradient(135deg, #18090e 0%, #5a1520 100%);
+    border-bottom: 2px solid #b24b62;
 }
 
 .room-header h3 {
     font-size: 1.8rem;
-    color: #52b788;
+    color: #b24b62;
     margin: 0;
 }
 
 .room-capacity {
-    background-color: #52b788;
-    color: #0d1b0d;
+    background-color: #b24b62;
+    color: #1f0d12;
     padding: 0.5rem 1rem;
     border-radius: 20px;
     font-weight: 600;
@@ -425,10 +425,10 @@ footer p {
 
 .room-details h4 {
     font-size: 1.2rem;
-    color: #52b788;
+    color: #b24b62;
     margin-top: 1rem;
     margin-bottom: 0.75rem;
-    border-bottom: 2px solid #52b788;
+    border-bottom: 2px solid #b24b62;
     padding-bottom: 0.5rem;
 }
 
@@ -445,7 +445,7 @@ footer p {
     padding: 0.5rem 0;
     padding-left: 1.5rem;
     position: relative;
-    color: #b7e4c7;
+    color: #f0d6de;
     line-height: 1.6;
 }
 
@@ -453,7 +453,7 @@ footer p {
     content: "✓";
     position: absolute;
     left: 0;
-    color: #52b788;
+    color: #b24b62;
     font-weight: bold;
 }
 
