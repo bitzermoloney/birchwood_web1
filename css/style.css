@@ -9,12 +9,12 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: #fff5f6;
-    background-color: #1f0d12;
+    background-color: #2a0d12;
 }
 
 /* Header styles */
 header {
-    background: linear-gradient(135deg, #5a1520 0%, #8b2435 100%);
+    background: linear-gradient(135deg, #4b0f18 0%, #6f1624 100%);
     color: white;
     padding: 2rem 1rem;
     text-align: center;
@@ -108,7 +108,7 @@ main {
     display: flex;
     align-items: center;
     min-height: 60vh;
-    background: linear-gradient(135deg, #18090e 0%, #5a1520 100%);
+    background: linear-gradient(135deg, #18090e 0%, #4b0f18 100%);
     border-radius: 15px;
     margin: 2rem 0;
     overflow: hidden;
@@ -158,7 +158,7 @@ main {
 .about-content h2 {
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
-    color: #b24b62;
+    color: #8f3245;
 }
 
 .about-content p {
@@ -194,7 +194,7 @@ main {
 .gallery h2 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
-    color: #b24b62;
+    color: #8f3245;
 }
 
 .gallery-grid {
@@ -234,7 +234,7 @@ main {
 .activities h2 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
-    color: #b24b62;
+    color: #8f3245;
 }
 
 .activities-grid {
@@ -244,24 +244,24 @@ main {
 }
 
 .activity-card {
-    background: linear-gradient(135deg, #5a1520 0%, #2d0f16 100%);
+    background: linear-gradient(135deg, #4b0f18 0%, #2d0f16 100%);
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-    border: 1px solid rgba(178, 75, 98, 0.22);
+    border: 1px solid rgba(143, 50, 69, 0.25);
     transition: all 0.3s ease;
     padding: 1.5rem;
 }
 
 .activity-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 12px 48px rgba(178, 75, 98, 0.22);
-    border-color: rgba(178, 75, 98, 0.45);
+    box-shadow: 0 12px 48px rgba(143, 50, 69, 0.28);
+    border-color: rgba(143, 50, 69, 0.50);
 }
 
 .activity-card h3 {
     font-size: 1.5rem;
-    color: #b24b62;
+    color: #8f3245;
     margin-bottom: 1rem;
 }
 
@@ -291,7 +291,7 @@ main {
 
 /* Footer */
 footer {
-    background: linear-gradient(135deg, #5a1520 0%, #8b2435 100%);
+    background: linear-gradient(135deg, #4b0f18 0%, #6f1624 100%);
     color: white;
     text-align: center;
     padding: 2rem 1rem;
@@ -307,15 +307,15 @@ footer p {
     text-align: center;
     margin: 3rem 0;
     padding: 2rem;
-    background: linear-gradient(135deg, rgba(90, 21, 32, 0.35) 0%, rgba(139, 36, 53, 0.35) 100%);
+    background: linear-gradient(135deg, rgba(75, 15, 24, 0.35) 0%, rgba(111, 22, 36, 0.35) 100%);
     border-radius: 15px;
-    border-left: 5px solid #b24b62;
+    border-left: 5px solid #8f3245;
 }
 
 .page-intro h2 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    color: #b24b62;
+    color: #8f3245;
 }
 
 .page-intro p {
@@ -333,18 +333,18 @@ footer p {
 
 /* Room card styles */
 .room-card {
-    background: linear-gradient(135deg, #5a1520 0%, #2d0f16 100%);
+    background: linear-gradient(135deg, #4b0f18 0%, #2d0f16 100%);
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-    border: 1px solid rgba(178, 75, 98, 0.22);
+    border: 1px solid rgba(143, 50, 69, 0.25);
     transition: all 0.3s ease;
 }
 
 .room-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 12px 48px rgba(178, 75, 98, 0.22);
-    border-color: rgba(178, 75, 98, 0.45);
+    box-shadow: 0 12px 48px rgba(143, 50, 69, 0.28);
+    border-color: rgba(143, 50, 69, 0.50);
 }
 
 .room-header {
@@ -352,19 +352,19 @@ footer p {
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem;
-    background: linear-gradient(135deg, #18090e 0%, #5a1520 100%);
-    border-bottom: 2px solid #b24b62;
+    background: linear-gradient(135deg, #18090e 0%, #4b0f18 100%);
+    border-bottom: 2px solid #8f3245;
 }
 
 .room-header h3 {
     font-size: 1.8rem;
-    color: #b24b62;
+    color: #8f3245;
     margin: 0;
 }
 
 .room-capacity {
-    background-color: #b24b62;
-    color: #1f0d12;
+    background-color: #8f3245;
+    color: #2a0d12;
     padding: 0.5rem 1rem;
     border-radius: 20px;
     font-weight: 600;
@@ -425,10 +425,10 @@ footer p {
 
 .room-details h4 {
     font-size: 1.2rem;
-    color: #b24b62;
+    color: #8f3245;
     margin-top: 1rem;
     margin-bottom: 0.75rem;
-    border-bottom: 2px solid #b24b62;
+    border-bottom: 2px solid #8f3245;
     padding-bottom: 0.5rem;
 }
 
@@ -453,7 +453,7 @@ footer p {
     content: "✓";
     position: absolute;
     left: 0;
-    color: #b24b62;
+    color: #8f3245;
     font-weight: bold;
 }
 
