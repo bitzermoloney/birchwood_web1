@@ -527,9 +527,10 @@ footer p {
 
 .room-content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr);
     gap: 2rem;
     padding: 2rem;
+    align-items: start;
 }
 
 .room-images {
@@ -575,6 +576,24 @@ footer p {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    width: 100%;
+    min-width: 0;
+}
+
+.room-text-block {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.room-text-block p {
+    margin: 0;
+    color: #f0d6de;
+    line-height: 1.7;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    hyphens: auto;
 }
 
 .room-details h4 {
@@ -641,9 +660,13 @@ footer p {
         max-width: 200px;
     }
 
-    .room-content {
+    .details-page .room-content {
         grid-template-columns: 1fr;
         gap: 1.5rem;
+    }
+
+    .details-page .room-images img {
+        height: 220px;
     }
 
     .room-header {
