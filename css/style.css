@@ -244,16 +244,26 @@ main {
 }
 
 .wildlife-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 1.5rem;
     margin-bottom: 2rem;
-    align-items: stretch;
+}
+
+.wildlife-grid .activity-card {
+    flex: 1 1 240px;
+    max-width: 280px;
 }
 
 @media (max-width: 640px) {
     .wildlife-grid {
-        grid-template-columns: 1fr;
+        justify-content: stretch;
+    }
+
+    .wildlife-grid .activity-card {
+        flex: 1 1 100%;
+        max-width: none;
     }
 }
 
