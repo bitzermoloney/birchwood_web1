@@ -234,9 +234,12 @@ main {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 1.25rem 2rem;
-    font-size: 1.1rem;
+    min-width: 320px;
+    min-height: 64px;
+    padding: 1.35rem 2.5rem;
+    font-size: 1.2rem;
     font-weight: 700;
+    letter-spacing: 0.03em;
     color: #fff;
     background: linear-gradient(135deg, #c24444 0%, #8f3245 100%);
     border-radius: 999px;
