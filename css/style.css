@@ -15,7 +15,9 @@ body {
     word-break: break-word;
 }
 
-h1, h2, h3, h4, h5, h6, p, li, a, span, button, body, div, nav, section, header, footer {
+html, body, main, section, article, div, figure, figcaption, p, h1, h2, h3, h4, h5, h6, li, a, span, button, nav, header, footer {
+    max-width: 100%;
+    min-width: 0;
     overflow-wrap: anywhere;
     word-break: break-word;
 }
@@ -578,6 +580,7 @@ footer p {
     gap: 1.5rem;
     width: 100%;
     min-width: 0;
+    max-width: 100%;
 }
 
 .room-text-block {
@@ -594,6 +597,7 @@ footer p {
     overflow-wrap: anywhere;
     word-break: break-word;
     hyphens: auto;
+    max-width: 100%;
 }
 
 .room-details h4 {
@@ -620,6 +624,10 @@ footer p {
     position: relative;
     color: #f0d6de;
     line-height: 1.6;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    max-width: 100%;
 }
 
 .room-details li:before {
@@ -667,6 +675,13 @@ footer p {
 
     .details-page .room-images img {
         height: 220px;
+    }
+
+    .details-page .room-details,
+    .details-page .room-text-block,
+    .details-page .room-details ul {
+        width: 100%;
+        max-width: 100%;
     }
 
     .room-header {
