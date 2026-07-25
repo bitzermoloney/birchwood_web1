@@ -225,6 +225,33 @@ main {
     transform: scale(1.1);
 }
 
+.Availability {
+    margin: 3rem 0 4rem;
+    text-align: center;
+}
+
+.availability-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(135deg, #c24444 0%, #8f3245 100%);
+    border-radius: 999px;
+    border: 2px solid rgba(255,255,255,0.15);
+    box-shadow: 0 16px 40px rgba(0,0,0,0.25);
+    text-decoration: none;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+}
+
+.availability-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+    background: linear-gradient(135deg, #e05555 0%, #9f4155 100%);
+}
+
 /* Activities section */
 .activities {
     margin: 4rem 0;
