@@ -10,6 +10,14 @@ body {
     line-height: 1.6;
     color: #fff5f6;
     background-color: #2a0d12;
+    overflow-x: hidden;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
+
+h1, h2, h3, h4, h5, h6, p, li, a, span, button {
+    overflow-wrap: anywhere;
+    word-break: break-word;
 }
 
 /* Header styles */
@@ -93,6 +101,13 @@ nav a:hover {
     
     nav.active {
         max-height: 500px;
+    }
+
+    .availability-button {
+        min-width: 0;
+        width: 100%;
+        padding: 1.25rem 1.5rem;
+        font-size: 1.1rem;
     }
 }
 
@@ -247,6 +262,10 @@ main {
     box-shadow: 0 20px 45px rgba(0,0,0,0.3);
     text-decoration: none;
     text-transform: uppercase;
+    text-align: center;
+    white-space: normal;
+    line-height: 1.3;
+    max-width: 100%;
     transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
 }
 
