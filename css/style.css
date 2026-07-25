@@ -244,16 +244,13 @@ main {
 }
 
 .wildlife-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(220px, 1fr));
     gap: 1.5rem;
     margin-bottom: 2rem;
 }
 
 .wildlife-grid .activity-card {
-    flex: 1 1 240px;
-    max-width: 280px;
     padding: 0 !important;
     min-height: 320px;
     position: relative;
@@ -261,6 +258,7 @@ main {
     background: transparent !important;
     border: none !important;
     box-shadow: none !important;
+    border-radius: 15px;
 }
 
 .wildlife-grid .activity-card img {
