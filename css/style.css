@@ -458,6 +458,92 @@ footer p {
     opacity: 0.8;
 }
 
+/* Enquiries page */
+.enquiry-layout {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+    margin: 2rem 0 3rem;
+}
+
+.enquiry-card {
+    background: linear-gradient(135deg, #4b0f18 0%, #2d0f16 100%);
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(143, 50, 69, 0.25);
+}
+
+.enquiry-card h3 {
+    color: #8f3245;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.enquiry-card p,
+.enquiry-card li {
+    color: #f0d6de;
+    line-height: 1.7;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+.contact-list li {
+    margin-bottom: 0.5rem;
+}
+
+.enquiry-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.form-row label {
+    font-weight: 600;
+    color: #f7dbe1;
+}
+
+.form-row input,
+.form-row textarea {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 10px;
+    background: rgba(255,255,255,0.08);
+    color: #fff;
+    font: inherit;
+}
+
+.form-row input::placeholder,
+.form-row textarea::placeholder {
+    color: rgba(255,255,255,0.7);
+}
+
+.submit-button {
+    background: linear-gradient(135deg, #d94b4b 0%, #a12f4d 100%);
+    color: white;
+    border: none;
+    border-radius: 999px;
+    padding: 1rem 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.submit-button:hover {
+    transform: translateY(-2px);
+}
+
 /* Page intro section */
 .page-intro {
     text-align: center;
@@ -643,6 +729,14 @@ footer p {
     .hero {
         flex-direction: column;
         text-align: center;
+    }
+
+    .enquiry-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .enquiry-card {
+        padding: 1.25rem;
     }
 
     .hero-content {

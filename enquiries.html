@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiries - Birchwood Holiday Cottage</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Birchwood Holiday Cottage</h1>
+        <p class="subtitle">Dornie, Kyle of Lochalsh, Scotland</p>
+        <button id="menu-toggle" class="hamburger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav id="main-nav">
+            <a href="index.html">Home</a>
+            <a href="details.html">Details</a>
+            <a href="location.html">Location</a>
+            <a href="activities.html">Activities</a>
+            <a href="pricing.html">Prices & Availability</a>
+            <a href="terms.html">Terms & Conditions</a>
+            <a href="enquiries.html">Enquiries</a>
+            <a href="reviews.html">Reviews</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-intro">
+            <h2>Enquiries</h2>
+            <p>For bookings, availability questions, or general information, please get in touch using the form below or by email.</p>
+        </section>
+
+        <section class="enquiry-layout">
+            <div class="enquiry-card">
+                <h3>Contact Birchwood</h3>
+                <p>If you would like to check availability or ask about your stay, please email us and we will get back to you as soon as possible.</p>
+                <ul class="contact-list">
+                    <li>Email: enquiries@birchwoodholidaycottage.co.uk</li>
+                    <li>Location: Dornie, Kyle of Lochalsh, Scotland</li>
+                </ul>
+            </div>
+
+            <div class="enquiry-card">
+                <h3>Send an enquiry</h3>
+                <form class="enquiry-form">
+                    <div class="form-row">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name">
+                    </div>
+                    <div class="form-row">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your email address">
+                    </div>
+                    <div class="form-row">
+                        <label for="dates">Dates</label>
+                        <input type="text" id="dates" name="dates" placeholder="Approximate arrival/departure dates">
+                    </div>
+                    <div class="form-row">
+                        <label for="guests">Number of guests</label>
+                        <input type="number" id="guests" name="guests" min="1" max="6" placeholder="e.g. 4">
+                    </div>
+                    <div class="form-row">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" placeholder="Tell us about your stay or any questions you have"></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send enquiry</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            Copyright © Birchwood Holiday Cottage<br>Site by James Waskett
+        </p>
+    </footer>
+
+    <script>
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            document.getElementById('main-nav').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
