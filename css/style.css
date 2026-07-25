@@ -243,6 +243,25 @@ main {
     gap: 2rem;
 }
 
+.wildlife-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 1024px) {
+    .wildlife-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 640px) {
+    .wildlife-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 .activity-card {
     background: linear-gradient(135deg, #4b0f18 0%, #2d0f16 100%);
     border-radius: 15px;
