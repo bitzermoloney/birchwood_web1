@@ -584,6 +584,10 @@ footer p {
     margin-top: 1.25rem;
 }
 
+.review-spacer {
+    height: 1.25rem;
+}
+
 .review-card .meta {
     margin: 0.4rem 0 0.8rem;
     color: #e2b5c0;
