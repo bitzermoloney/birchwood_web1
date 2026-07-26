@@ -565,6 +565,27 @@ footer p {
     color: #f0d6de;
 }
 
+/* Reviews section */
+.reviews-grid {
+    display: grid;
+    gap: 1.25rem;
+    margin: 2rem 0 3rem;
+}
+
+.review-card {
+    background: linear-gradient(135deg, rgba(75, 15, 24, 0.95) 0%, rgba(45, 15, 22, 0.95) 100%);
+    border-radius: 15px;
+    padding: 1.5rem;
+    border: 1px solid rgba(143, 50, 69, 0.25);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.review-card .meta {
+    margin: 0.4rem 0 0.8rem;
+    color: #e2b5c0;
+    font-weight: 600;
+}
+
 /* Rooms container */
 .rooms-container {
     display: grid;
