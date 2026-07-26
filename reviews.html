@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews - Birchwood Holiday Cottage</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Birchwood Holiday Cottage</h1>
+        <p class="subtitle">Dornie, Kyle of Lochalsh, Scotland</p>
+        <button id="menu-toggle" class="hamburger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav id="main-nav">
+            <a href="index.html">Home</a>
+            <a href="details.html">Details</a>
+            <a href="location.html">Location</a>
+            <a href="activities.html">Activities</a>
+            <a href="pricing.html">Prices & Availability</a>
+            <a href="terms.html">Terms & Conditions</a>
+            <a href="enquiries.html">Enquiries</a>
+            <a href="reviews.html">Reviews</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-intro">
+            <h2>Guest Reviews</h2>
+            <p>Read what previous guests have said about their stay at Birchwood.</p>
+        </section>
+
+        <section class="reviews-grid">
+            <article class="review-card">
+                <h3>Wonderful stay</h3>
+                <p class="meta">August 2024 — 5/5</p>
+                <p>We had an amazing week at Birchwood. The cottage was cosy, clean and perfectly located for exploring Skye and the Highlands.</p>
+            </article>
+
+            <article class="review-card">
+                <h3>Perfect base for exploring</h3>
+                <p class="meta">May 2023 — 5/5</p>
+                <p>Lovely cottage with great views. Host was friendly and helpful. Highly recommended.</p>
+            </article>
+
+            <article class="review-card">
+                <h3>Comfortable and peaceful</h3>
+                <p class="meta">October 2022 — 4/5</p>
+                <p>A lovely, quiet location and a cosy cottage. Great for families and couples alike.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            Copyright © Birchwood Holiday Cottage<br>Site by James Waskett
+        </p>
+    </footer>
+
+    <script>
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            document.getElementById('main-nav').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
