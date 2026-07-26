@@ -580,6 +580,10 @@ footer p {
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
 }
 
+.review-card + .review-card {
+    margin-top: 1.25rem;
+}
+
 .review-card .meta {
     margin: 0.4rem 0 0.8rem;
     color: #e2b5c0;
