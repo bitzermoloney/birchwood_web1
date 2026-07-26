@@ -578,14 +578,7 @@ footer p {
     padding: 1.5rem;
     border: 1px solid rgba(143, 50, 69, 0.25);
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
-}
-
-.review-card + .review-card {
-    margin-top: 1.25rem;
-}
-
-.review-spacer {
-    height: 1.25rem;
+    margin-bottom: 1.25rem !important;
 }
 
 .review-card .meta {
