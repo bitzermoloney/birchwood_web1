@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prices & Availability - Birchwood Holiday Cottage</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Birchwood Holiday Cottage</h1>
+        <p class="subtitle">Dornie, Kyle of Lochalsh, Scotland</p>
+        <button id="menu-toggle" class="hamburger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav id="main-nav">
+            <a href="index.html">Home</a>
+            <a href="details.html">Details</a>
+            <a href="location.html">Location</a>
+            <a href="activities.html">Activities</a>
+            <a href="pricing.html">Prices & Availability</a>
+            <a href="terms.html">Terms & Conditions</a>
+            <a href="enquiries.html">Enquiries</a>
+            <a href="reviews.html">Reviews</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-intro">
+            <h2>Prices & Availability</h2>
+            <p>Seasonal rates and availability for your stay at Birchwood Holiday Cottage.</p>
+        </section>
+
+        <section class="rooms-container">
+            <article class="room-card">
+                <div class="room-header">
+                    <h3>Seasonal Rates</h3>
+                    <span class="room-capacity">From £1,150 per week</span>
+                </div>
+                <div class="room-content">
+                    <div>
+                        <p>Rates vary by season and length of stay. Short breaks may be available by arrangement, especially in the quieter months.</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>Weekly stays available throughout the year</li>
+                            <li>Short breaks considered on request</li>
+                            <li>Contact us for the latest available dates</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+
+            <article class="room-card">
+                <div class="room-header">
+                    <h3>Availability</h3>
+                    <span class="room-capacity">Please enquire</span>
+                </div>
+                <div class="room-content">
+                    <div>
+                        <p>To check availability for your preferred dates, please get in touch with us directly. We will be happy to help with your booking enquiry.</p>
+                    </div>
+                    <div>
+                        <a href="enquiries.html" class="availability-button">Enquire About Availability</a>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            Copyright © Birchwood Holiday Cottage<br>Site by James Waskett
+        </p>
+    </footer>
+
+    <script>
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            document.getElementById('main-nav').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
